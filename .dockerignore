@@ -1,8 +1,0 @@
-Dockerfile
-env
-.pytest_cache
-*.pyc
-*.pyo
-*.pyd
-__pycache__
-.idea
