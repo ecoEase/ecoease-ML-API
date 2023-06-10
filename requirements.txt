@@ -6,4 +6,3 @@ pillow
 keras
 google-cloud-storage
 google-auth
-PIL
