@@ -7,9 +7,9 @@ that can classify garbage type and call "garbage collector" to help the user to 
 
 ### **Garbage Classification**
 
-| Usage    | Endpoint                         |
-| -------- | -------------------------------- |
-| Classify | POST http://ecoease.api/classify |
+| Usage    | Method | Endpoint  |
+| -------- | ------ | --------- |
+| Classify | POST   | /classify |
 
 **parameters**
 
