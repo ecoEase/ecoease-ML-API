@@ -26,6 +26,31 @@ that can classify garbage type and call "garbage collector" to help the user to 
 }
 ```
 
+# Testing the API
+
+
+To test the ML API with image input, follow these steps:
+
+1. Launch your preferred API testing tool, such as Postman or any other application that allows you to make HTTP requests.
+
+2. Set the Base URL to the API endpoint: `http://127.0.0.1:5000/classify`.
+
+3. Set the request method to POST.
+
+4. Add the following headers to the request:
+   - Content-Type: multipart/form-data
+
+5. Prepare your image file to be sent as input.
+
+6. Include the image input in the request payload on 'image' key
+
+7. Click the "Send" button to send the API request to the server.
+
+8. Review the response from the server. The response will contain the predicted results based on the input image.
+
+9. Repeat these steps to test the ML API with different images or variations of the input.
+
+Make sure you have the ML API server running locally on `http://127.0.0.1:5000` before testing the API with image input.
 
 
 
