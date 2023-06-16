@@ -20,7 +20,7 @@ credentials = service_account.Credentials.from_service_account_file(
 
 # Initialize Google Cloud Storage client with the credentials
 storage_client = storage.Client(credentials=credentials)
-bucket_name = 'money-tracker-bucket22'
+bucket_name = 'ecoease'
 bucket = storage_client.bucket(bucket_name)
 
 # Load the model
@@ -58,7 +58,7 @@ def classify_object():
     image_file.save(temp_path)
 
     # Upload the image to Google Cloud Storage
-    blob = bucket.blob('images/' + unique_filename)
+    blob = bucket.blob('images_ML/' + unique_filename)
     blob.upload_from_filename(temp_path)
 
     # Get the public URL of the uploaded image
