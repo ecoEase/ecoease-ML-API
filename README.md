@@ -27,6 +27,9 @@ that can classify garbage type and call "garbage collector" to help the user to 
 ```
 
 
+
+
 **We are committed to continuously improving and developing this API to meet your needs. If you have any suggestions or feedback, we would greatly appreciate it. Please send us your feedback.**
 
 # Thank You
+# ECoEase Team
