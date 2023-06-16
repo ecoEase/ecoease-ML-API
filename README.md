@@ -42,7 +42,7 @@ To test the ML API with image input, follow these steps:
 
 5. Prepare your image file to be sent as input.
 
-6. Include the image input in the request payload on 'image' key
+6. Include the image input in the request payload on `image` key
 
 7. Click the "Send" button to send the API request to the server.
 
